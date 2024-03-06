@@ -22,14 +22,14 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.send('serviceid', 'template',
+    emailjs.send('service_d6ddp84', 'template_2v4z09u',
       {
         from_name: form.name,
         to_name: 'Muhammad Abbas',
-        to_email: 'contact@muhammadabbas@develeper.pro',
+        to_email: 'abbasmastan2424@gmail.com',
         message: form.message,
       },
-        'public_key'
+        '0oWiglNZkkBT17bbz'
       ).then(()=>{
         setLoading(false);
         alert('Thank you. I will get back to you as soon as possible');
