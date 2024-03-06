@@ -16,7 +16,7 @@ const Navbar = () => {
             setActive("");
             window.scrollTo(0, 0);
           }}>
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-16 h-16 object-contain" />
           <p className="text-white font-poppins text-[10px] font-bold cursor-pointer flex">MUHAMMAD <span className="sm:block hidden">&nbsp; ABBAS</span>
           </p>
         </Link>
